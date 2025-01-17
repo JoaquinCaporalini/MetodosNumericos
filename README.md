@@ -1,7 +1,7 @@
 # MetodosNumericos
 Este repositorio va dirigido a la implementación de los métodos y ejercicios de la materia métodos numéricos
 
-El material de teoría y práctica puede encontrarse [aquí](https://github.com/JoaquinCaporalini/TMD/tree/master/MetodosNumericos/Material)
+El material de teoría y práctica puede encontrarse [aquí](https://github.com/JoaquinCaporalini/MetodosNumericos/tree/main/Material)
 
 ## Unidad I: Sucesiones y Series Numéricas
 
