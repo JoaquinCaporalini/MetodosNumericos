@@ -36,7 +36,9 @@ B = [5 7 ; 10 14]
 disp('Determinante de A')
 detA = gaussElimDet(A)
 disp(detA)
+disp(det(A))
 
 disp('Determinante de B')
 detB = gaussElimDet(B)
 disp(detB)
+disp(det(B))
