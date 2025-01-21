@@ -28,13 +28,11 @@ function [x,a] = gausselim(A,B)
     end;
     
     // Sustitución regresiva (Triangular superior)
-    x(n,1:mb) = a(n,n+1:n+mb) ./ a(n,n);
-    for i = n-1:-1:1
-        
-        sumk = a(i,(i+1):n) * x((i+1):n,1:mb);
-        
-        x(i, 1:mb) = (a(i,n+1)-sumk)./a(i,i);
-    end;
+    x(nA,1:mb) = a(nA,(nA+1):(nA+mb))./a(nA,nA)
+
+    for i = (nA-1):-1:1 do
+        x(i,1:mb) = (a(i,(mA+1):(mA+mb)) - a(i,(i+1):mA)*x((i+1):mA,1:mb))./a(i,i)
+    end
 endfunction
 
 // Ejemplos de aplicación
