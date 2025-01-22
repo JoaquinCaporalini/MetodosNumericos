@@ -47,6 +47,38 @@ hay veces que lo interesante para un problema es tener una aproximación a la re
 
 
 ## Unidad 4: Resolución de Sistemas de Ecuaciones Lineales - Métodos Directos
+
+### Métodos
+- Resolver una matriz triangular superior ([Aquí](U4/p4m_triSuperior.sce))
+- Resolver una matriz triangular superior (ampliada) ([Aquí](U4/p4m_triSuperiorApliada.sce))
+- Resolver una matriz triangular Inferior ([Aquí](U4/p4m_triInferior.sce))
+- Resolver una matriz triangular Inferior (ampliada) ([Aquí](U4/p4m_triInferiorAmpliada.sce))
+- Método de eliminación Gaussiana ([Aquí](U4/p4m_gausselim.sce))
+- Método de eliminación Gaussiana con pivoteo parcial ([Aquí](U4/p4m_gausselimPP.sce))
+- Método de eliminación Gaussiana ampliado ([Aquí](U4/p4m_gausselimAmpliado.sce))
+- Método de eliminación Gaussiana para obtener el determinante ([Aquí](U4/p4m_gausselimDet.sce))
+- Método de eliminación Gaussiana con las matrices P, L y U([Aquí](U4/p4m_gausselimPLU.sce))
+- Resolución a traves del PLU([Aquí](U4/p4m_solPLU.sce))
+- Método Doolittle ([Aquí](U4/p4m_doolittle.sce))
+- Método de  Cholesky ([Aquí](U4/p4m_cholesky.sce))
+- Método de factorización QR ([Aquí](U4/p4m_qr.sce))
+- Método de Crout ([Aquí](U4/p4m_crout.sce))
+
+### Ejercicios
+
+- Implementar los métodos para resolver sistemas triangular superior ([Aquí](U4/p4m_triSuperior.sce)) e inferior ([Aquí](U4/p4m_triInferior.sce))
+- Resolvamos sistemas con eliminación Gaussiana ([Aquí](U4/p4e2.sce))
+- Matar varias soluciones de un solo calculo 🐦. Operando con matrices de términos independientes([Aquí](U4/p4e3.sce))
+- Implementación del método de calculo del determinate a traves de la eliminación gaussiana([Aquí](U4/p4m_gausselimDet.sce))
+- Dándole solución al ejercicio 2b([Aquí](U4/p4e5.sce))
+- Una solución muy especifica para un problema muy especifico, las matrices tridiagonales ([Aquí](U4/p4e6.sce))
+- Implementación del método de la factorización PLU([Aquí](U4/p4m_gausselimPLU.sce)) y aplicarla a una matriz ([Aquí](U4/p4e7.sce))
+- Usar la factorización PLU ([Aquí](U4/p4e8.sce))
+- Resolviendo problemas a varios sistemas con la descomposición de gauss PLU ([Aquí](U4/p4e9.sce))
+- Resolviendo problemas a varios sistemas con la descomposición de LU de doolittle ([Aquí](U4/p4e10.sce))
+- Analizar el código provisto para el método de Cholesky ([Aquí](U4/p4m_cholesky.sce)) y aplicarlo a algunas matrices ([Aquí](U4/p4e11.sce))
+- Uso los métodos de Cholesky y QR para resolver ua ecuación ([Aquí](U4/p4e12.sce)) 
+
 ## Unidad 5: Resolución de Sistemas de Ecuaciones Lineales - Métodos Iterativos
 ## Unidad 6: Aproximación de Autovalores
 ## Unidad 7: Interpolación y Ajuste de Curvas
