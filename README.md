@@ -52,6 +52,8 @@ En esta unidad nos enfocamos en resolver uno de los problemas más comunes de la
 
 ## Unidad 4: Resolución de Sistemas de Ecuaciones Lineales - Métodos Directos
 
+No hay mucho que agregar y nada nuevo aparece que no se vea en un curso de algebra lineal. Con estos métodos se busca resolver (pero con errores de redondeo por trabajar con computadoras 😵‍💫) los problemas de intersección de rectas el espacio. 
+
 ### Métodos
 - Resolver una matriz triangular superior ([Aquí](U4/p4m_triSuperior.sce))
 - Resolver una matriz triangular superior (ampliada) ([Aquí](U4/p4m_triSuperiorApliada.sce))
