@@ -25,6 +25,10 @@ hay veces que lo interesante para un problema es tener una aproximación a la re
 
 ## Unidad 3: Resolución de Ecuaciones No Lineales
 
+Un algoritmo, para resolver un problema matemático, es un proceso iterativo que genera una sucesión de números (o puntos) de acuerdo a un conjunto de instrucciones precisas, junto con un criterio de parada. 
+
+En esta unidad nos enfocamos en resolver uno de los problemas más comunes de la matemática aplicada encontrar raíces de funciones. En la mayoría de los casos estas ecuaciones no pueden resolverse de manera analítica, y por ello se recurre a la resolución numérica a través de métodos iterativos. Además buscaremos dar garantías de convergencia de los métodos.
+
 ### Métodos
 - Método de la bisección ([aquí](U3/p3m_biseccion.sce))
 - Método de secante ([aquí](U3/p3m_secante.sce))
