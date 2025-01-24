@@ -86,6 +86,26 @@ No hay mucho que agregar y nada nuevo aparece que no se vea en un curso de algeb
 - Uso los métodos de Cholesky y QR para resolver ua ecuación ([Aquí](U4/p4e12.sce)) 
 
 ## Unidad 5: Resolución de Sistemas de Ecuaciones Lineales - Métodos Iterativos
+
+Los métodos iterativos generan una sucesión $\{x(k)\}$ que converge a la solución del sistema lineal $Ax = b$. Estos métodos son eficientes para resolver sistemas lineales de grandes dimensiones, en especial, sistemas lineales dispersos como los que se presentan en los análisis de circuitos y en la solución numérica de sistemas de ecuaciones diferenciales parciales.
+
+Para $n$ grande, la eliminación de Gauss requiere aproximadamente $\frac{2}{3}n^3$ operaciones aritméticas, mientras que los métodos iterativos requieren del orden de $n^2$ operaciones para obtener una solución suficientemente precisa
+
+### Métodos
+- Método de Jacobi ([Aquí](U5/p5m_jacobi.sce))
+- Método de Gauss-Seidel([Aquí](U5/p5m_gaussSeidel.sce))
+- Obtener el omega($\omega$) óptimo para el método de relajación ([Aquí](U5/p5m_omegaOptimo.sce))
+- Método de sobre relajación (SOR)([Aquí](U5/p5m_sor.sce))
+- Funciones para obtener el radio espectral de las matrices de los métodos y verificar convergencia ([Aquí](U5/p5m_convege.sce))
+- Misceláneas útiles para la vida ([Aquí](U5/p5m_miscelaneas.sce))
+- ([Aquí](U5/p5m_.sce))
+
+### Ejercicios
+- Ver si se puede aplicar los métodos de Jacobi y Gauss-Seidel ([Aquí](U5/p5e1.sce))
+- Aproximar a pesar de no ser diagonal dominate y ¡converge! ([Aquí](U5/p5e2.sce))
+- Matriz de iteración de A (CREO que es la matriz N). Esta en la carpeta 🥴.
+- Cálculos pesados 🏋️‍♀️ ([Aquí](U5/p5e4.sce))
+- ([Aquí](U5/p5e5.sce))
 ## Unidad 6: Aproximación de Autovalores
 ## Unidad 7: Interpolación y Ajuste de Curvas
 ## Unidad 8: Integración Numérica
