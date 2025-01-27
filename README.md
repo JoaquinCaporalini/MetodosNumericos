@@ -98,14 +98,32 @@ Para $n$ grande, la eliminación de Gauss requiere aproximadamente $\frac{2}{3}n
 - Método de sobre relajación (SOR)([Aquí](U5/p5m_sor.sce))
 - Funciones para obtener el radio espectral de las matrices de los métodos y verificar convergencia ([Aquí](U5/p5m_convege.sce))
 - Misceláneas útiles para la vida ([Aquí](U5/p5m_miscelaneas.sce))
-- ([Aquí](U5/p5m_.sce))
 
 ### Ejercicios
 - Ver si se puede aplicar los métodos de Jacobi y Gauss-Seidel ([Aquí](U5/p5e1.sce))
 - Aproximar a pesar de no ser diagonal dominate y ¡converge! ([Aquí](U5/p5e2.sce))
 - Matriz de iteración de A (CREO que es la matriz N). Esta en la carpeta 🥴.
 - Cálculos pesados 🏋️‍♀️ ([Aquí](U5/p5e4.sce))
-- ([Aquí](U5/p5e5.sce))
+- Nada, aplico SOR ([Aquí](U5/p5e5.sce))
+
 ## Unidad 6: Aproximación de Autovalores
+
+En álgebra lineal, los autovalores y autovectores son conceptos fundamentales asociados a las transformaciones lineales representadas mediante matrices cuadradas. En términos simples, los autovalores son escalas y los autovectores son direcciones específicas que permanecen inalteradas (excepto por su escala) bajo la acción de la matriz.
+
+En esta unidad veremos como aproximarlos.
+
+### Métodos
+- Método de la potencia([Aquí](U6/p6m_potencia.sce)) 
+- Círculos de Gerschgorin ([Aquí](U6/p6m_circGerschgorin.sce))
+- Dibujar círculo de Gerschgorin ([Aquí](U6/p6m_circGerschgorinPlot.sce))
+- Acotando el polinomio ([Aquí](U6/p6m_polinomio.sce))
+
+### Ejercicios
+-([Aquí](U6/p6e1.sce))
+- Acotar raíces con el polinomio característico ([Aquí](U6/p6e2.sce)). También hay parte en papel
+- Polinomio característico y sus raíces de $A(\epsilon)$([Aquí](U6/p6e3.sce))
+- Implementar el plot para los circulos de Gerchoring ([Aquí](U6/p6m_circGerschgorinPlot.sce))
+- Método de la potencia ([Aquí](U6/p6e5.sce)) OBS: Ahí hay una función para max autovalor.
+
 ## Unidad 7: Interpolación y Ajuste de Curvas
 ## Unidad 8: Integración Numérica
