@@ -119,11 +119,40 @@ En esta unidad veremos como aproximarlos.
 - Acotando el polinomio ([Aquí](U6/p6m_polinomio.sce))
 
 ### Ejercicios
--([Aquí](U6/p6e1.sce))
+-El ejercicio 1, era solo comandos de scilab ([Aquí](U6/p6e1.sce))
 - Acotar raíces con el polinomio característico ([Aquí](U6/p6e2.sce)). También hay parte en papel
 - Polinomio característico y sus raíces de $A(\epsilon)$([Aquí](U6/p6e3.sce))
 - Implementar el plot para los circulos de Gerchoring ([Aquí](U6/p6m_circGerschgorinPlot.sce))
 - Método de la potencia ([Aquí](U6/p6e5.sce)) OBS: Ahí hay una función para max autovalor.
 
 ## Unidad 7: Interpolación y Ajuste de Curvas
+
+Sea $f(x)$ una cierta función de la que posiblemente no se conoce una forma explícita, o bien es muy complicada para evaluarla, derivarla, integrarla, hallarle ceros, etc. Podemos aproximar $f(x)$ por funciones simples, y hacer los cálculos con estas aproximaciones.
+
+### Métodos
+
+- Método de interpolación de Newton ([Aquí](U7/p7m_newton.sce))
+- Método de interpolación de Lagrange ([Aquí](U7/p7m_lagrange.sce))
+- Matriz para el método de mínimos cuadrados ([Aquí](U7/p7m_.matrizmincuadsce))
+- Polinomio de Chebyshev y sus raíces ([Aquí](U7/p7m_polchebyshev.sce))
+- Aproximación del máximo error de interpolación a traves de $\phi_n$ ([Aquí](U7/p7m_errinter.sce))
+- Método ([Aquí](U7/p7m_.sce))
+- Método ([Aquí](U7/p7m_.sce))
+- Método ([Aquí](U7/p7m_.sce))
+- Método ([Aquí](U7/p7m_.sce))
+
+### Ejercicios
+
+- Interpolar con Lagrange y Newton, y acotar el error ([Aquí](U7/p7e1.sce))
+- Es solo un ejemplo para convencerme 🤞([Aquí](U7/p7e2.sce)). La solución está en la carpeta y viene de notar que la n+1-esima derivada de un polinomio de grado n es 0 🫢.
+- Está hecho en la carpeta 📚️. Ojo que no sin la **Regla de Leibniz** no me salia. Lo que dice la regla es que dado $F(t,x)$ diferenciable con derivadas parciales continuas entonces $$\frac{d}{dx} \int^{a}_{b}F(t,x) dt = \int^{a}_{b}\frac{\partial}{\partial x}F(t,x) dt $$
+- En este caso la idea es ver cual es la cota del error cometido. Haciendo uso de $$|f(x) - p(x) | \leq \frac{cotsup(f^{(n)}(x))}{n+1!} \phi_n(x) $$ Para el ejercicio ([Aquí](U7/p7e4.sce)) los valores en donde interpolar son: $x = 2.15$ y $x = 2.35$.
+- ([Aquí](U7/p7e5.sce))
+- ([Aquí](U7/p7e6.sce))
+- ([Aquí](U7/p7e7.sce))
+- ([Aquí](U7/p7e8.sce))
+- ([Aquí](U7/p7e9.sce))
+- ([Aquí](U7/p7e10.sce))
+- ([Aquí](U7/p7e11.sce))
+
 ## Unidad 8: Integración Numérica
