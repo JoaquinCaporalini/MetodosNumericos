@@ -141,7 +141,7 @@ Sea $f(x)$ una cierta función de la que posiblemente no se conoce una forma exp
 
 - Interpolar con Lagrange y Newton, y acotar el error ([Aquí](U7/p7e1.sce))
 - Es solo un ejemplo para convencerme 🤞([Aquí](U7/p7e2.sce)). La solución está en la carpeta y viene de notar que la n+1-esima derivada de un polinomio de grado n es 0 🫢.
-- Está hecho en la carpeta 📚️. Ojo que no sin la **Regla de Leibniz** no me salia. Lo que dice la regla es que dado $F(t,x)$ diferenciable con derivadas parciales continuas entonces $$\frac{d}{dx} \int^{a}_{b}F(t,x) dt = \int^{a}_{b}\frac{\partial}{\partial x}F(t,x) dt$$
+- Está hecho en la carpeta 📚️. Ojo que no sin la **Regla de Leibniz** no me salia. Lo que dice la regla es que dado $F(t,x)$ diferenciable con derivadas parciales continuas entonces $\frac{d}{dx} \int^{a}_{b}F(t,x) dt = \int^{a}_{b}\frac{\partial}{\partial x}F(t,x) dt$
 - En este caso la idea es ver cual es la cota del error cometido. Haciendo uso de $$|f(x) - p(x) | \leq \frac{cotsup(f^{(n)}(x))}{n+1!} \phi_n(x) $$ Para el ejercicio ([Aquí](U7/p7e4.sce)) los valores en donde interpolar son: $x = 2.15$ y $x = 2.35$.
 - Aprobechando que un polinomio de grado $n$ se encuentra por lagrange exactamente cn $n+1$ puntos primero encuentro $p_{123}$ y calculo $p_{123}(3)$ para despues aproximar $p_{0123}$ y calcular 🥹 ([Aquí](U7/p7e5.sce)). Los cálculos en mi cuadernillo.
 - Este tiene un estilo similar al anterior. Con las diferencias divididas recupero los valores de $f(x_i)$ con $x \in \{-1, 1, 2, 4\}$([Aquí](U7/p7e6.sce))
@@ -152,3 +152,23 @@ Sea $f(x)$ una cierta función de la que posiblemente no se conoce una forma exp
 - Usando el polinomio de Chebyshev fuera del $[-1,1]$ ([Aquí](U7/p7e11.sce))
 
 ## Unidad 8: Integración Numérica
+
+Aborda métodos para aproximar el valor de una integral definida cuando no es posible calcularla analíticamente. Se estudian técnicas como los métodos del rectángulo, trapecio y Simpson, que utilizan sumas de áreas bajo la curva para estimar la integral. Estos métodos son fundamentales en situaciones donde las funciones a integrar son complejas o no tienen una primitiva expresable en términos elementales. Además, se analiza el error asociado a cada aproximación y cómo mejorar la precisión refinando la partición del intervalo de integración.
+
+### Métodos
+- Método del trapecio compuesto([Aquí](U8/p8m_trapeciocompuesto.sce))
+- Método de Simpson compuesto([Aquí](U8/p8m_simpsoncompuesto.sce))
+- Aproximación de integrales en dos variables ([Aquí](U8/p8m_dosvarintegral.sce))
+
+### Reglas
+- Regla del trapecio ([Aquí](U8/p8m_trapecio.sce))
+- Regla de Simpson ([Aquí](U8/p8m_simpson.sce))
+- Error de integración numérica ([Aquí](U8/p8m_error.sce))
+
+### Ejercicios
+- Aplicar métodos del trapecio y Simpson a 3 funciones ([Aquí](U8/p8e1.sce))
+- Método del trapecio compuesto ([Aquí](U8/p8e2.sce))
+- Método de Simpson compuesto ([Aquí](U8/p8e3.sce))
+- Aproximar con Simpson y trapecio compuestos y validad contra el valor real 🥸([Aquí](U8/p8e4.sce))
+- Cálculo bidimensional ([Aquí](U8/p8e5.sce))
+- Un problema: 🥧 ([Aquí](U8/p8e6.sce)), si $\pi$.
