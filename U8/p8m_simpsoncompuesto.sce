@@ -7,7 +7,8 @@ function I = simpsonCompuesto(f, a, b, n)
         xi = a + i*h
         I = I + (f(xi) * (modulo(i, 2)*2 + 2))
     end
-    I = (h/3) *
+    I = (h/3) * I
+endfunction
 
 function I = simpsonCompuesto_def(fun, a, b, n)
     deff("y=f(x)", "y="+fun);

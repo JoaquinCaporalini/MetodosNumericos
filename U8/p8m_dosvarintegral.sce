@@ -40,8 +40,8 @@ function I = trapecioCompuestoBidim(f, a, b, c, d, n, m)
     // f es la función a integrar
     // a y b son los límites de integración en x
     // c(x) y d(x) son los límites de integración en y dados por dos funciones
-    // n es el número de subintervalos en x
-
+    // n es el número de subintervalos en y
+    // m es el número de subintervalos en x
 
     h = (b - a) / n
 
@@ -57,7 +57,8 @@ function I = simpsonCompuestoBidim_def(fun, a, b, cfun, dfun, n, m)
     // f es la función a integrar
     // a y b son los límites de integración en x
     // c(x) y d(x) son los límites de integración en y dados por dos funciones
-    // n es el número de subintervalos en x
+    // n es el número de subintervalos en y
+    // m es el número de subintervalos en x
     deff("z=f(x, y)", "z="+fun);
     deff("y=c(x)", "y="+cfun);
     deff("y=d(x)", "y="+dfun);
@@ -76,7 +77,8 @@ function I = trapecioCompuestoBidim_def(fun, a, b, cfun, dfun, n, m)
     // f es la función a integrar
     // a y b son los límites de integración en x
     // c(x) y d(x) son los límites de integración en y dados por dos funciones
-    // n es el número de subintervalos en x
+    // n es el número de subintervalos en y
+    // m es el número de subintervalos en x
     deff("z=f(x, y)", "z="+fun);
     deff("y=c(x)", "y="+cfun);
     deff("y=d(x)", "y="+dfun);
@@ -94,7 +96,8 @@ function I = simpsonCompuestoBidim_def(fun, a, b, cfun, dfun, n, m)
     // f es la función a integrar
     // a y b son los límites de integración en x
     // c(x) y d(x) son los límites de integración en y dados por dos funciones
-    // n es el número de subintervalos en x
+    // n es el número de subintervalos en y
+    // m es el número de subintervalos en x
     deff("z=f(x, y)", "z="+fun);
     deff("y=c(x)", "y="+cfun);
     deff("y=d(x)", "y="+dfun);
