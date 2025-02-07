@@ -29,7 +29,7 @@ ih5 = (-1:0.01:3)';
 
 subplot(2,3,1)
 gcf().children.grid = color("grey70")*[1 1]; // grids
-gda.x_location="middle"; // grids
+gda.x_location="origin"; // grids
 plot(ih1,f1(ih1))
 title('f1(x) = cos(x) * cosh(x)')
 xlabel('x')
@@ -37,7 +37,7 @@ ylabel('f1(x) = y')
 
 subplot(2,3,2)
 gcf().children.grid = color("grey70")*[1 1]; // grids
-gda.x_location="middle";
+gda.x_location="origin";
 plot(ih2,f2(ih2))
 title('f2(x) = 2 * sin(x) - x^2')
 xlabel('x')
@@ -45,7 +45,7 @@ ylabel('f2(x) = y')
 
 subplot(2,3,3)
 gcf().children.grid = color("grey70")*[1 1]; // grids
-gda.x_location="middle";
+gda.x_location="origin";
 plot(ih3,f3(ih3))
 title('f3(x) = e^-x - x^4')
 xlabel('x')
@@ -53,7 +53,7 @@ ylabel('f3(x) = y')
 
 subplot(2,3,4)
 gcf().children.grid = color("grey70")*[1 1]; // grids
-gda.x_location="middle";
+gda.x_location="origin";
 plot(ih4,f4(ih4))
 title('f4(x) = log(x) - x + 1')
 xlabel('x')
@@ -61,7 +61,7 @@ ylabel('f4(x) = y')
 
 subplot(2,3,5)
 gcf().children.grid = color("grey70")*[1 1]; // grids
-gda.x_location="middle";
+gda.x_location="origin";
 plot(ih5,f5(ih5))
 title('f5(x) = x ^2  / 4 - sin(x)')
 xlabel('x')

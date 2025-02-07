@@ -1,5 +1,13 @@
-clc // limpia la consola
-clear // borra el contenido de la memoria
+function k = calclulo_iterBiseccion(a, b, eps)
+    // Cantidad mínimas de iteraciones a realizar para tener el error que buscamos
+    k = ceil(log2((b-a)/eps))
+endfunction
+
+
+function y = f(x)
+    y = x.^3 - 25;
+endfunction
+
 
 function [c, i] = biseccion(f, a, b, tol, max_iter)
     // Description of biseccion(f, a, b, tol, max_iter)
@@ -27,7 +35,7 @@ function [c, i] = biseccion(f, a, b, tol, max_iter)
     c = (a + b) / 2;
     fc = f(c);
 
-    while (b - c) > tol && abs(fc) > tol && i < max_iter then
+    while  i < max_iter then
         if fa * fc < 0 then
             b = c;
             fb = fc;
@@ -43,12 +51,13 @@ function [c, i] = biseccion(f, a, b, tol, max_iter)
         
         i = i + 1;
     end
-
-    if i >= max_iter then
-        disp('No se encontró la raíz en el número máximo de iteraciones');
-        c = %nan;
-    end
 endfunction
+
+
+i = calclulo_iterBiseccion(2, 3, 1e-4)
+r = biseccion(f, 2, 3, %inf, i+1)
+
+printf("Aproximación: %.7f calculo %.7f\n", r, 25^(1/3));
 
 function [c, i] = biseccionEps(f, a, b, eps)
     // Description of biseccion(f, a, b, tol, max_iter)
