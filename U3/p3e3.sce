@@ -1,4 +1,4 @@
-clc // limpia la consola
+// clc // limpia la consola
 clear // borra el contenido de la memoria
 clf // limpia la ventana de gráficos
 

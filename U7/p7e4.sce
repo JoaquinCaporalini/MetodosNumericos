@@ -1,4 +1,4 @@
-clc()
+// clc()
 clear()
 
 // Método de Diferencias Divididas de Newton

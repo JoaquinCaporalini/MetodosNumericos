@@ -29,7 +29,7 @@ function [x1, i] = newtonModificado(f, x0, tot, max_iter, h, m)
 endfunction
 
 fs = poly([2.25 -0.75 -2 1], "x", "coeff");
-f  = deff("y=f(x)","y=horner(fs,x)");
+deff("y=f(x)","y=horner(fs,x)");
 
 [x1, i1] = newtonModificado(f, 1.51, 1e-10, 1000, 1e-6, 1);
 [x2, i2] = newtonModificado(f, 1.51, 1e-10, 1000, 1e-6, 2);

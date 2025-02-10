@@ -1,4 +1,4 @@
-clc // limpia la consola
+// clc // limpia la consola
 clear // borra el contenido de la memoria
 
 // function [x1, i] = newton(f, x0, tot, max_iter, h)

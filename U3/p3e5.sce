@@ -1,4 +1,4 @@
-clc // limpia la consola
+// clc // limpia la consola
 clear // borra el contenido de la memoria
 
 function [y, i] = ptoFijo(f, x0, tol, nmax)
@@ -30,7 +30,7 @@ C = 1/4;
 function y = g(x)
     y = x + C .* (x.^2 - 5);
 endfunction
-^
+
 printf("\n\n---------Ej 5---------\n");
 [y, i] = ptoFijo(g, 2, 10^(-6), 100);
 printf("funcion g(x) = x + 1/4 (x^2+5)[C = 1/4]\nValor esperado: %f\nValor obtenido %f\ncant iteraciones: %d", -sqrt(5), y, i);
