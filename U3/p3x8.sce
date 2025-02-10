@@ -15,7 +15,7 @@
 //      \frac{\lambda^n}{1-\lambda} < \eps => \frac{\frac{\eps (1 - \lambda)}{|x_1 - x_0|}}{log(\lambda)}
 
 function y = f(x)
-    y = sin(x) + x;
+    y = sin(x);
 endfunction
 
 eps = 1e-6
