@@ -95,3 +95,8 @@ function [c, i] = biseccionEps(f, a, b, eps)
         i = i + 1;
     end
 endfunction
+
+function k = calclulo_iterBiseccion(a, b, eps)
+    // Cantidad mínimas de iteraciones a realizar para tener el error que buscamos
+    k = ceil(log2((b-a)/eps))
+endfunction

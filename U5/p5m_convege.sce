@@ -3,7 +3,7 @@
 function r = r_Jacobi(A)
     D_inv = diag(diag(1 ./ A))
  
-    T = eye(A) - (D_inv)
+    T = eye(A) - (D_inv) * A
     r = max(abs(spec(T)))
 endfunction
  

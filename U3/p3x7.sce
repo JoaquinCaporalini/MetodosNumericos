@@ -44,42 +44,6 @@ function [c, i] = biseccionEps(f, a, b, eps)
     end
 endfunction
 
-function rs = factorizar_(p, i, f, eps)
-    // Función para factorizar polinomios conociendo las raíces.
-    // [i, f] intervalo donde se encuentran todas las raíces
-
-    ci = coeff(p);
-    cb = ci;
-
-    grado = degree(p)
-
-    rs = zeros(1, grado)
-
-    for n = grado:(-1):2
-        // Busco mi raíz
-        deff("y = p_fun(x)", "y=horner(p,x)")
-        disp(n, rs, ci)
-        rs(n) = biseccionEps(p_fun, a, b, eps)
-
-        // Me armo los nuevos coeficientes
-        // posición dentro del arreglo de coeficientes es uno más
-        // a_n esta en ci(n+1) en definitiva n es ya menos 1
-        cb(n) = ci(n+1)
-
-        for j = n-1:-1:1
-            cb(j) = ci(j+1) + rs(n) * cb(j+1)
-        end
-        disp(cb(1:n))
-        p = poly(cb(1:n), "x", "coeff")
-        ci = coeff(p);
-        disp(" ")
-    end 
-
-    rs(1) = - ci(1) / ci(2);
-
-endfunction
-
-
 
 function rs = factorizar(p, i, f, eps)
     // Función para factorizar polinomios conociendo las raíces.
