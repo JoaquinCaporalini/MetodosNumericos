@@ -49,6 +49,21 @@ En esta unidad nos enfocamos en resolver uno de los problemas más comunes de la
 - discos en superficies suaves ([aquí](U3/p3e9.sce))
 - Las olas y el viento ([aquí](U3/p3e10.sce))
 
+### Extras
+
+- Jugando con Falsi ([aquí](U3/p3x1.sce))
+- No pude resolver 🤕 ([aquí](U3/p3x2.sce))
+- Garantizar convergencia ([aquí](U3/p3x3.sce))
+- Extra 4([aquí](U3/p3x4.sce))
+<!-- - Extra 5([aquí](U3/p3x5.sfce)) -->
+- Extra 6([aquí](U3/p3x6.sce))
+- Extra 7([aquí](U3/p3x7.sce))
+- Extra 8([aquí](U3/p3x8.sce))
+- Extra 9([aquí](U3/p3x9.sce))
+- Extra 10([aquí](U3/p3x10.sce))
+- Extra 11([aquí](U3/p3x11.sce))
+<!-- - Extra 12([aquí](U3/p3x12.sce)) -->
+
 
 ## Unidad 4: Resolución de Sistemas de Ecuaciones Lineales - Métodos Directos
 
@@ -106,6 +121,12 @@ Para $n$ grande, la eliminación de Gauss requiere aproximadamente $\frac{2}{3}n
 - Cálculos pesados 🏋️‍♀️ ([Aquí](U5/p5e4.sce))
 - Nada, aplico SOR ([Aquí](U5/p5e5.sce))
 
+### Extras
+
+- Extra 4([aquí](U5/p5x4.sce))
+- Extra 5([aquí](U5/p5x5.sce))
+- Extra 6([aquí](U5/p5x6.sce))
+
 ## Unidad 6: Aproximación de Autovalores
 
 En álgebra lineal, los autovalores y autovectores son conceptos fundamentales asociados a las transformaciones lineales representadas mediante matrices cuadradas. En términos simples, los autovalores son escalas y los autovectores son direcciones específicas que permanecen inalteradas (excepto por su escala) bajo la acción de la matriz.
@@ -150,6 +171,14 @@ Sea $f(x)$ una cierta función de la que posiblemente no se conoce una forma exp
 - Interpolar con nodos uniformes y comparar con los valores reales (el resultado te sorprenderá 🤫) ([Aquí](U7/p7e9.sce))
 - Usando el polinomio de Chebyshev para aproximar en $[-1,1]$([Aquí](U7/p7e10.sce))
 - Usando el polinomio de Chebyshev fuera del $[-1,1]$ ([Aquí](U7/p7e11.sce))
+
+### Extras
+
+- Extra 1([aquí](U7/p7x1.sce))
+- Extra 2([aquí](U7/p7x2.sce))
+- Extra 3([aquí](U7/p7x3.sce))
+- Método de mínimos cuadrados para varias variables ([aquí](U7/p7x6.sce))
+
 
 ## Unidad 8: Integración Numérica
 
