@@ -92,5 +92,5 @@ function y = g(x)
     y = f(x) - x
 endfunction
 
-[y, i] = newton(g, y, 10^(-6), 10, 10^(-6))
+[y, i] = newton(g, y, 10^(-6), 10, 10^(-4))
 // printf("y = %f, i = %d\n", y, i)
